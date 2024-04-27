@@ -1,0 +1,57 @@
+/* Estilos para o formulário de cadastro de veículo */
+.cadastroVeiculo {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.textoVeiculo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formularioVenda {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formularioVenda label {
+    font-weight: bold;
+}
+
+.formularioVenda input[type="text"],
+.formularioVenda input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formularioVenda button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.formularioVenda button:hover {
+    background-color: #0056b3;
+}
+
+.spinner-border {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+#sucesso {
+    margin-top: 20px;
+}
+
+/* Estilos adicionais podem ser adicionados conforme necessário */

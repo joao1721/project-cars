@@ -1,16 +1,40 @@
 .cabecalho {
     width: 100%;
     background-color: red;
+    display: flex;
+    gap: 10rem;
 }
 
 .logo {
     display: flex;
 
+}
+
+.textoLogo{
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    align-self: center;
+ 
 
 
+}
 
+.navegaCadastro {
+ 
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+    align-self: center;
+    text-decoration: none;
+   
+}
 
-
+.navegaCadastro:hover{
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.1);
+    
 }
 
 .carrosUsados {
